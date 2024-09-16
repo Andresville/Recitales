@@ -1,0 +1,63 @@
+/* Estilo del contenedor de las tarjetas */
+.card-container {
+    display: flex; /* Utiliza flexbox para organizar las tarjetas */
+    gap: 5rem; /* Espacio entre tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan a la siguiente línea si no hay suficiente espacio */
+    justify-content: center; /* Centra las tarjetas horizontalmente en el contenedor */
+}
+
+/* Estilo de cada tarjeta */
+.card {
+    border-radius: 50px; /* Bordes redondeados de 50px */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde de la tarjeta */
+    width: 18rem; /* Ancho fijo de 18rem */
+    height: auto; /* La altura se ajusta automáticamente según el contenido */
+}
+
+/* Estilo del cuerpo de la tarjeta */
+.card-body {
+    background-color: black; /* Color de fondo negro para el cuerpo de la tarjeta */
+}
+
+/* Estilo del botón "Ver detalle" */
+.ver-detalle {
+    background-color: #6c85e1; /* Color de fondo azul claro */
+    border-radius: 15px; /* Bordes redondeados de 15px */
+    border-color: #6c85e1; /* Color del borde coincide con el fondo */
+    width: 7rem; /* Ancho fijo de 7rem */
+    height: auto; /* La altura se ajusta automáticamente */
+}
+
+/* Cambia el color de fondo cuando el ratón pasa sobre el botón "Ver detalle" */
+.ver-detalle:hover {
+    background-color: #5a6bce; /* Color de fondo azul más oscuro */
+}
+
+/* Estilo del botón "Comprar" */
+.comprar {
+    height: auto; /* La altura se ajusta automáticamente */
+    width: 7.3rem; /* Ancho fijo de 7.3rem */
+    background-color: #5ef056; /* Color de fondo verde */
+    border-radius: 15px; /* Bordes redondeados de 15px */
+    border-color: #5ef056; /* Color del borde coincide con el fondo */
+}
+
+/* Cambia el color de fondo cuando el ratón pasa sobre el botón "Comprar" */
+.comprar:hover {
+    background-color: #218838; /* Color de fondo verde más oscuro */
+}
+
+/* Añade margen a la derecha de cada botón */
+.ver-detalle, .comprar {
+    margin-right: 10px; /* Espacio de 10px a la derecha de cada botón */
+}
+
+/* Estilo del texto en la tarjeta */
+.card-text {
+    color: white; /* Color del texto blanco */
+}
+
+/* Estilo de los enlaces en la tarjeta */
+.card-link {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
