@@ -47,7 +47,7 @@
 /* Estilo del botón "Comprar" */
 .comprar {
     height: auto; /* La altura se ajusta automáticamente */
-    width: 7.3rem; /* Ancho fijo de 7.3rem */
+    width: 7rem; /* Ancho fijo de 7.3rem */
     background-color: #5ef056; /* Color de fondo verde */
     border-radius: 15px; /* Bordes redondeados de 15px */
     border-color: #5ef056; /* Color del borde coincide con el fondo */
