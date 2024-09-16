@@ -6,69 +6,95 @@
 
 /* Estilo del contenedor de las tarjetas */
 .card-container {
-    display: flex; /* Utiliza flexbox para organizar las tarjetas */
-    gap: 2rem; /* Espacio entre tarjetas */
-    flex-wrap: nowrap; /* Evita que las tarjetas se envuelvan a la siguiente línea */
-    overflow-x: auto; /* Permite el desplazamiento horizontal si las tarjetas exceden el ancho del contenedor */
-    padding: 1rem; /* Añade un poco de espacio interno en el contenedor */
-    justify-content: flex-start; /* Alinea las tarjetas a la izquierda */
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten automáticamente */
+    overflow-x: auto;
+    padding: 1rem;
+    justify-content: center;
     margin: 10px;
 }
 
 /* Estilo de cada tarjeta */
 .card {
-    border-radius: 50px; /* Bordes redondeados de 50px */
-    overflow: hidden; /* Oculta cualquier contenido que se desborde de la tarjeta */
-    width: 18rem; /* Ancho fijo de 18rem */
-    height: auto; /* La altura se ajusta automáticamente según el contenido */
+    border-radius: 50px;
+    overflow: hidden;
+    width: 18rem;
+    height: auto;
 }
-
-
 
 /* Estilo del cuerpo de la tarjeta */
 .card-body {
-    background-color: black; /* Color de fondo negro para el cuerpo de la tarjeta */
+    background-color: black;
 }
 
 /* Estilo del botón "Ver detalle" */
 .ver-detalle {
-    background-color: #6c85e1; /* Color de fondo azul claro */
-    border-radius: 15px; /* Bordes redondeados de 15px */
-    border-color: #6c85e1; /* Color del borde coincide con el fondo */
-    width: 7rem; /* Ancho fijo de 7rem */
-    height: auto; /* La altura se ajusta automáticamente */
+    background-color: #6c85e1;
+    border-radius: 15px;
+    border-color: #6c85e1;
+    width: 7rem;
+    height: auto;
 }
 
-/* Cambia el color de fondo cuando el ratón pasa sobre el botón "Ver detalle" */
 .ver-detalle:hover {
-    background-color: #5a6bce; /* Color de fondo azul más oscuro */
+    background-color: #5a6bce;
 }
 
 /* Estilo del botón "Comprar" */
 .comprar {
-    height: auto; /* La altura se ajusta automáticamente */
-    width: 7rem; /* Ancho fijo de 7.3rem */
-    background-color: #5ef056; /* Color de fondo verde */
-    border-radius: 15px; /* Bordes redondeados de 15px */
-    border-color: #5ef056; /* Color del borde coincide con el fondo */
+    height: auto;
+    width: 7rem;
+    background-color: #5ef056;
+    border-radius: 15px;
+    border-color: #5ef056;
 }
 
-/* Cambia el color de fondo cuando el ratón pasa sobre el botón "Comprar" */
 .comprar:hover {
-    background-color: #218838; /* Color de fondo verde más oscuro */
+    background-color: #218838;
 }
 
 /* Añade margen a la derecha de cada botón */
 .ver-detalle, .comprar {
-    margin-right: 10px; /* Espacio de 10px a la derecha de cada botón */
+    margin-right: 10px;
 }
 
 /* Estilo del texto en la tarjeta */
 .card-text {
-    color: white; /* Color del texto blanco */
+    color: white;
 }
 
 /* Estilo de los enlaces en la tarjeta */
 .card-link {
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    text-decoration: none;
+}
+
+/* Estilos responsivos para pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    .card-container {
+        flex-direction: column; /* Apila las tarjetas verticalmente */
+        align-items: center;
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .card-container {
+        justify-content: center;
+    }
+
+    .card {
+        width: 16rem;
+    }
+}
+
+/* Estilos para pantallas grandes (desktop) */
+@media (min-width: 769px) {
+    .card-container {
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 20rem;
+    }
 }
