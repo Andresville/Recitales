@@ -12,7 +12,7 @@
     overflow-x: auto;
     padding: 1rem;
     justify-content: center;
-    margin: 10px;
+    margin: 8px;
 }
 
 /* Estilo de cada tarjeta */
@@ -33,7 +33,7 @@
     background-color: #6c85e1;
     border-radius: 15px;
     border-color: #6c85e1;
-    width: 7rem;
+    width: 6rem;
     height: auto;
 }
 
@@ -95,6 +95,6 @@
     }
 
     .card {
-        width: 20rem;
+        width: 17rem;
     }
 }
