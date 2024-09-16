@@ -6,3 +6,11 @@
     text-indent: -9999px; /* Ocultar el texto */
   }
   
+
+  .carousel-caption {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
