@@ -48,7 +48,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Rock & Roll</a>
+                        <a class="nav-link active" aria-current="page" href="./">Rock & Roll</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Pop & Melódico</a>
@@ -169,20 +169,20 @@ data-bs-ride="carousel"
         <img
           src="https://i.postimg.cc/T2qHrmKB/Rock-1.jpg"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de The Electric Wolves"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Whiterow</h5>
+          <h5 class="card-title text-white">The Electric Wolves</h5>
           <p class="card-text">
-            "La banda te llevará en un viaje sonoro, llenando el escenario con su energía electrizante y su icónica fusión de géneros musicales."
+            ¡Prepárate para ser electrizado por The Electric Wolves! Este recital será una descarga de energía pura, donde las guitarras rugen como un lobo salvaje y los tambores resuenan en tu pecho como un trueno. 
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle" data-id="1"> <!-- Usa un id específico para la banda -->
+            <a href="./detalle.html?id=1" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -198,21 +198,21 @@ data-bs-ride="carousel"
         <img
           src="https://i.postimg.cc/bJM18TgV/Rock-2.jpg"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Thunderchild"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Skidsnake</h5>
+          <h5 class="card-title text-white">Thunderchild</h5>
           <p class="card-text">
-            "Sumérgete en una experiencia de rock pesado como nunca antes, con riffs atronadores y un show tan enérgico que te dejará sin aliento."
+            ¡El trueno se avecina y su nombre es Thunderchild! Una noche cargada de energía donde cada riff será un relámpago y cada golpe de batería te hará sentir el estruendo del rock con éxitos potentes.
 
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle" data-id="2">
+            <a href="./detalle.html?id=2" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -228,20 +228,20 @@ data-bs-ride="carousel"
         <img
           src="https://i.postimg.cc/DzRq36Bj/Rock-3.jpg"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Crimson Highway"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Ironhead</h5>
+          <h5 class="card-title text-white">Crimson Highway</h5>
           <p class="card-text">
-            "Únete a Ironhead para una velada inolvidable de rock alternativo indie. Disfruta de su sonido en un espectáculo íntimo que transformará tu noche."
+            ¡Enciende los motores y prepárate para recorrer la autopista más intensa del rock con Crimson Highway! Una noche de pura adrenalina, donde los solos de guitarra cortan el aire y los ritmos te arrastran.
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body"> 
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="3">
+            <a href="./detalle.html?id=3" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -257,20 +257,20 @@ data-bs-ride="carousel"
         <img
           src="https://i.postimg.cc/Dfp49B0q/Rock-4.jpg"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Midnight Owl"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Trymon</h5>
+          <h5 class="card-title text-white">Midnight Owl</h5>
           <p class="card-text">
-            "¡Siente el rugido del rock and roll con Trymon!. Con cada acorde y cada ritmo, Trymon te llevará de regreso a la era dorada del rock."
+            ¡La noche está a punto de cobrar vida con el aullido de Midnight Howl! Prepárate para una velada oscura y poderosa, donde cada acorde será un grito de libertad y cada golpe de batería resonará como un eco en la luna llena.
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="4">
+            <a href="./detalle.html?id=4" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -291,27 +291,26 @@ data-bs-ride="carousel"
     <!-- Contenedor para las tarjetas -->
     <div class="card-container">
       
-      <!-- Tarjeta 1 -->
+      <!-- Tarjeta 5 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/25jRXmZz/Pop-1-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Melodía Perfecta"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Nexus</h5>
+          <h5 class="card-title text-white">Melodía Perfecta</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            ¡Prepárate para una noche llena de magia con La Melodía Perfecta! Este concierto te llevará a través de un viaje encantador, con melodías suaves, letras emotivas y una voz que tocará tu corazón. 
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="5">
+            <a href="./detalle.html?id=5" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -319,29 +318,29 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 1 -->
+      <!-- Fin de Tarjeta 5 -->
       
-      <!-- Tarjeta 2 -->
+      <!-- Tarjeta 6 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/gjHH59RW/Pop-2-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Corazones Melódicos"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Sakuragi</h5>
+          <h5 class="card-title text-white">Corazones Melódicos</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            Los Corazones Melódicos te llevarán a un viaje musical lleno de sorpresas y momentos inolvidables. 
+            ¡Asegura tu lugar en este evento único y déjate llevar por la magia del pop melódico!. ¡Asegura tu lugar!
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="6">
+            <a href="./detalle.html?id=6" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -349,29 +348,28 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 2 -->
+      <!-- Fin de Tarjeta 6 -->
 
-      <!-- Tarjeta 3 -->
+      <!-- Tarjeta 7 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/dQfsk7TG/Pop-3-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Los Sensacionales Popstars"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Lorenti</h5>
+          <h5 class="card-title text-white">Sensacionales Popstars</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            ¡Ven a disfrutar de una noche mágica con Los Sensacionales Popstars! Este recital promete una experiencia musical inolvidable, con éxitos que han sido himnos y nuevas canciones que te harán moverte al ritmo.
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body"> 
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="7">
+            <a href="./detalle.html?id=7" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -379,29 +377,28 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 3 -->
+      <!-- Fin de Tarjeta 7 -->
 
-      <!-- Tarjeta 4 -->
+      <!-- Tarjeta 8 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/Px4MVs1k/Pop-4-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de La Estrella del Pop"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Kumara</h5>
+          <h5 class="card-title text-white">Estrella del Pop</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            ¡La Estrella del Pop te está esperando para una noche inolvidable! Disfruta de un concierto lleno de melodías pegajosas, letras inspiradoras y una puesta en escena espectacular.
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="8">
+            <a href="./detalle.html?id=8" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -409,7 +406,7 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 4 -->
+      <!-- Fin de Tarjeta 8 -->
 
       
 
@@ -421,27 +418,26 @@ data-bs-ride="carousel"
     <!-- Contenedor para las tarjetas -->
     <div class="card-container">
       
-      <!-- Tarjeta 1 -->
+      <!-- Tarjeta 9 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/HL82CYhw/Electro-1-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Electro Vibes"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Basilmon Day</h5>
+          <h5 class="card-title text-white">Electro Vibes</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            ¡Prepárate para una noche de pura energía con Electro Vibes! Este evento te llevará a un viaje de ritmos envolventes, beats intensos y una atmósfera que te hará vibrar. 
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="9">
+            <a href="./detalle.html?id=9" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -449,29 +445,28 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 1 -->
+      <!-- Fin de Tarjeta 9 -->
       
-      <!-- Tarjeta 2 -->
+      <!-- Tarjeta 10 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/Mp2ZYd8z/Electro-2-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Dj Spectrum"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Halfworld Moon</h5>
+          <h5 class="card-title text-white">Dj Spectrum</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            ¡La Fiesta Electrónica con DJ Spectrum que esperaste toda tu vida!. Prepárate para una noche llena de ritmos contagiosos, bajos profundos y luces deslumbrantes. 
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="10">
+            <a href="./detalle.html?id=10" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -479,29 +474,28 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 2 -->
+      <!-- Fin de Tarjeta 10 -->
 
-      <!-- Tarjeta 3 -->
+      <!-- Tarjeta 11 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/kGC3bhbH/Electro-3-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Neon Beats"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Downfall Land</h5>
+          <h5 class="card-title text-white">Neon Beats</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            ¡No te pierdas la experiencia única con Neon Beats! Este concierto promete sumergirte en un mundo de sonidos futuristas, efectos visuales asombrosos y una energía que te hará moverte.   
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body"> 
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="11">
+            <a href="./detalle.html?id=11" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -509,29 +503,28 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 3 -->
+      <!-- Fin de Tarjeta 11 -->
 
-      <!-- Tarjeta 4 -->
+      <!-- Tarjeta 12 -->
       <div class="card">
         <!-- Imagen de la tarjeta -->
         <img
           src="https://i.postimg.cc/Z5p8f7BH/Electro-4-editada.png"
           class="card-img-top"
-          alt="Nirvana Album Cover"
+          alt="Recital de Dj Pulse"
         />
         <!-- Cuerpo de la tarjeta con el título y texto -->
         <div class="card-body">
-          <h5 class="card-title text-white">Full Sun Party</h5>
+          <h5 class="card-title text-white">Dj Pulse</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            ¡Únete a la celebración con DJ Pulse y vive una noche de música electrónica inolvidable! Con una mezcla de ritmos hipnóticos y beats intensos, DJ Pulse transformará la pista de baile.
           </p>
         </div>
         <!-- Contenedor para los botones de acción -->
         <div class="card-body">
           <!-- Botón para ver detalles -->
-          <button class="ver-detalle">
-            <a href="#" class="card-link text-white">Ver detalle</a>
+          <button class="ver-detalle data-id="12">
+            <a href="./detalle.html?id=12" class="card-link text-white">Ver detalle</a>
           </button>
           <!-- Botón para comprar -->
           <button class="comprar">
@@ -539,7 +532,7 @@ data-bs-ride="carousel"
           </button>
         </div>
       </div>
-      <!-- Fin de Tarjeta 4 -->
+      <!-- Fin de Tarjeta 12 -->
 
       
 
@@ -578,6 +571,8 @@ src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.j
 integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
 crossorigin="anonymous"
 ></script>
+
+<script src="/landing page/js/main.js"></script>
 
 
 
