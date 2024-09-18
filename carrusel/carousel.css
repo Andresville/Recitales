@@ -1,0 +1,16 @@
+.carousel-indicators li {
+    width: 10px; /* Tamaño personalizado del indicador */
+    height: 10px; /* Tamaño personalizado del indicador */
+    background-color: white; /* Color de los indicadores (puedes cambiar el color si lo deseas) */
+    border-radius: 50%; /* Hacerlos circulares */
+    text-indent: -9999px; /* Ocultar el texto */
+  }
+  
+
+  .carousel-caption {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  

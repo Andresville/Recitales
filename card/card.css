@@ -1,0 +1,100 @@
+.titulo-card {
+    color: #880609;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Estilo del contenedor de las tarjetas */
+.card-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten automáticamente */
+    overflow-x: auto;
+    padding: 1rem;
+    justify-content: center;
+    margin: 8px;
+}
+
+/* Estilo de cada tarjeta */
+.card {
+    border-radius: 50px;
+    overflow: hidden;
+    width: 18rem;
+    height: auto;
+}
+
+/* Estilo del cuerpo de la tarjeta */
+.card-body {
+    background-color: black;
+}
+
+/* Estilo del botón "Ver detalle" */
+.ver-detalle {
+    background-color: #6c85e1;
+    border-radius: 15px;
+    border-color: #6c85e1;
+    width: 6rem;
+    height: auto;
+}
+
+.ver-detalle:hover {
+    background-color: #5a6bce;
+}
+
+/* Estilo del botón "Comprar" */
+.comprar {
+    height: auto;
+    width: 7rem;
+    background-color: #5ef056;
+    border-radius: 15px;
+    border-color: #5ef056;
+}
+
+.comprar:hover {
+    background-color: #218838;
+}
+
+/* Añade margen a la derecha de cada botón */
+.ver-detalle, .comprar {
+    margin-right: 10px;
+}
+
+/* Estilo del texto en la tarjeta */
+.card-text {
+    color: white;
+}
+
+/* Estilo de los enlaces en la tarjeta */
+.card-link {
+    text-decoration: none;
+}
+
+/* Estilos responsivos para pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    .card-container {
+        flex-direction: column; /* Apila las tarjetas verticalmente */
+        align-items: center;
+    }
+}
+
+/* Estilos para pantallas medianas (tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .card-container {
+        justify-content: center;
+    }
+
+    .card {
+        width: 16rem;
+    }
+}
+
+/* Estilos para pantallas grandes (desktop) */
+@media (min-width: 769px) {
+    .card-container {
+        justify-content: space-around;
+    }
+
+    .card {
+        width: 17rem;
+    }
+}
