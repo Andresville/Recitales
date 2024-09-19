@@ -8,5 +8,5 @@ const detalleBanda = (id) => {
 console.log(detalleBanda)
 
 export const bandaServices = {
-    detalleBanda
+    detalleBanda,
 };

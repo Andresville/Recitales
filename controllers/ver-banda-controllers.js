@@ -51,7 +51,7 @@ const obtenerInformacion = async () => {
                     <p class="card-text">Platea Alta: ${banda.price4}</p>
                     <p class="card-text">Campo - General: ${banda.price5}</p>
                     <div class="d-grid gap-2 col-6 mx-auto pt-md-5">
-                        <button class="btn btn-success opacity-75" type="button">Comprar</button>
+                        <a class="btn btn-success opacity-75" type="button" href="../pagos.html?id=${id}">Comprar</a>
                     </div>
                 </div>
             </div>
