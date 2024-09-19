@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const id = boton.getAttribute('data-id');
 
             // Redirige a la página de detalles con el ID en la URL
-            window.location.href = `detalles.html?id=${id}`;
+            window.location.href = `detalle.html?id=${id}`;
         });
     });
 });
