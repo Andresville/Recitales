@@ -1,3 +1,13 @@
+:root{
+    --verde-claro: #5ef056;
+    --verde-oscuro:#218838;
+    --azul-claro:#6c85e1;
+    --azul-oscuro:#5a6bce; 
+    --blanco: #FFFFFF;
+    --negro: #000000;
+
+}
+
 .titulo-card {
     color: #880609;
     font-weight: bold;
@@ -25,33 +35,33 @@
 
 /* Estilo del cuerpo de la tarjeta */
 .card-body {
-    background-color: black;
+    background-color: var(--negro);
 }
 
 /* Estilo del botón "Ver detalle" */
 .ver-detalle {
-    background-color: #6c85e1;
+    background-color: var(--azul-claro);
     border-radius: 15px;
-    border-color: #6c85e1;
+    border-color: var(--azul-claro);
     width: 6rem;
     height: auto;
 }
 
 .ver-detalle:hover {
-    background-color: #5a6bce;
+    background-color: var(--azul-oscuro);
 }
 
 /* Estilo del botón "Comprar" */
 .comprar {
     height: auto;
     width: 7rem;
-    background-color: #5ef056;
+    background-color: var(--verde-claro);
     border-radius: 15px;
-    border-color: #5ef056;
+    border-color: var(--verde-claro);
 }
 
 .comprar:hover {
-    background-color: #218838;
+    background-color: var(--verde-oscuro);
 }
 
 /* Añade margen a la derecha de cada botón */
