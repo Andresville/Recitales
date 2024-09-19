@@ -21,7 +21,7 @@ const pagoBanda = async () => {
 
             const contenido = `
             <div>
-                <img src="${banda.imageBanner}" class="img-fluid" alt="Banner imagen banda de rock">
+                <img src="${banda.imageBanner}" class="d-block w-100" alt="Banner imagen banda de rock">
             </div>
             <div class="container mb-3 mt-3 border border-0">
                 <div class="row g-0">
