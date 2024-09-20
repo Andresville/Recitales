@@ -80,6 +80,10 @@
     text-decoration: none;
 }
 
+.boton:hover {
+    cursor: pointer;
+}
+
 /* Estilos responsivos para pantallas pequeñas (móviles) */
 @media (max-width: 576px) {
     .card-container {
