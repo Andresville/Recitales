@@ -78,7 +78,7 @@
       <img src="/IMG/Nosotros.webp" alt="Imagen Nosotros">
       </div>
 
-      <div class="col p-2">
+      <div class="col p-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie vestibulum mauris, mattis
           malesuada ex elementum in. Vestibulum rutrum, leo quis iaculis dignissim, velit massa venenatis
           eros, eget interdum turpis metus vitae lectus. Aliquam erat volutpat. Pellentesque habitant morbi
@@ -88,6 +88,47 @@
           Phasellus quis scelerisque neque, sed semper massa. Duis bibendum justo odio, lobortis sodales ipsum
           interdum. Nullam tincidunt varius nisl at lacinia. Sed id risus sodales, lacinia nulla quis, lobortis quam.</p>
       </div>
+    </div>
+
+    <div class="container mt-5 row justify-content-center ">
+      <h3 class="text-center mb-4 fw-bold">Contactanos</h3>
+
+      <div >
+      
+        <form>
+          <!-- Campo Nombre -->
+          <div class="mb-3 row">
+            <label for="nombre" class="col-sm-4 col-form-label text-end">Nombre</label> <!-- Alinea el label a la derecha -->
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese tu nombre" required>
+            </div>
+          </div>
+
+          <!-- Campo Email -->
+          <div class="mb-3 row">
+            <label for="email" class="col-sm-4 col-form-label text-end">Email</label> <!-- Alinea el label a la derecha -->
+            <div class="col-sm-8">
+              <input type="email" class="form-control" id="email" placeholder="Ingrese tu email" required>
+            </div>
+          </div>
+
+          <!-- Campo Mensaje -->
+          <div class="mb-3 row">
+            <label for="mensaje" class="col-sm-4 col-form-label text-end">Mensaje</label> <!-- Alinea el label a la derecha -->
+            <div class="col-sm-8">
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+          </div>
+
+          <!-- Botón de Enviar -->
+          <div class="row">
+            <div class="col-sm-8 offset-sm-4">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+
+        </form>
+      </div>
+
     </div>
 
   </main>
