@@ -71,7 +71,7 @@
 
   <main class="container text-center p-4">
 
-    <h3 class="textoCentrado fw-bold">Sobre Nosotros</h3>
+    <h3 class="textoCentrado fw-bold p-3">Sobre Nosotros</h3>
 
     <div class="row p-2">
       <div class="col img-fluid">
@@ -91,44 +91,51 @@
     </div>
 
     <div >
-      <h3 class="text-center mb-4 fw-bold">Contactanos</h3>
+      <h3 class="text-center mb-4 fw-bold p-4">Contactanos</h3>
 
-      <div class="container mt-5 row justify-content-center col-13 col-md-9">
+      <div class="container mt-5">
       
-        <form>
-          <!-- Campo Nombre -->
-          <div class="mb-3 row">
-            <label for="nombre" class="col-sm-4 col-form-label text-end">Nombre</label> <!-- Alinea el label a la derecha -->
-            <div class="col-sm-8">
-              <input type="text" class="form-control" id="nombre" placeholder="Ingrese tu nombre" required>
+        <div class="row justify-content-start">
+  
+          <div class="col-12 col-md-9">
+      
+          <form class="formulario">
+            <!-- Campo Nombre -->
+            <div class="mb-3 row">
+              <label for="nombre" class="col-sm-4 col-form-label text-end">Nombre</label>
+              <!-- Alinea el label a la derecha -->
+              <div class="col-sm-8">
+                <input type="text" class="form-control" id="nombre" placeholder="Ingrese tu nombre" required>
+              </div>
             </div>
-          </div>
-
-          <!-- Campo Email -->
-          <div class="mb-3 row">
-            <label for="email" class="col-sm-4 col-form-label text-end">Email</label> <!-- Alinea el label a la derecha -->
-            <div class="col-sm-8">
-              <input type="email" class="form-control" id="email" placeholder="Ingrese tu email" required>
+      
+            <!-- Campo Email -->
+            <div class="mb-3 row">
+              <label for="email" class="col-sm-4 col-form-label text-end">Email</label> <!-- Alinea el label a la derecha -->
+              <div class="col-sm-8">
+                <input type="email" class="form-control" id="email" placeholder="Ingrese tu email" required>
+              </div>
             </div>
-          </div>
-
-          <!-- Campo Mensaje -->
-          <div class="mb-3 row">
-            <label for="mensaje" class="col-sm-4 col-form-label text-end">Mensaje</label> <!-- Alinea el label a la derecha -->
-            <div class="col-sm-8">
-              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      
+            <!-- Campo Mensaje -->
+            <div class="mb-3 row">
+              <label for="mensaje" class="col-sm-4 col-form-label text-end">Mensaje</label>
+              <!-- Alinea el label a la derecha -->
+              <div class="col-sm-8">
+                <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+              </div>
             </div>
-          </div>
-
-          <!-- Botón de Enviar -->
-          <div class="row">
-            <div class="col-sm-8 offset-sm-4">
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </div>
-
-        </form>
-      </div>
-
+      
+            <!-- Botón de Enviar -->
+            <div class="row">
+              <div class="col-sm-8 offset-sm-6">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+      
+          </form>
+        </div>
+      </div>      
     </div>
 
   </main>

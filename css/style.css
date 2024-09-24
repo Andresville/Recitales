@@ -84,17 +84,6 @@
     cursor: pointer;
 }
 
-/*Fondo para el formulario (Imagen)*/
-.bg-contacto{
-    background-image: url(../IMG/Nosotros.webp);
-    height: 40rem; 
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-/*Fondo del formulario*/
-.formulario{
-    background-color:var(--blanco);
-}
 
 /* Estilos responsivos para pantallas pequeñas (móviles) */
 @media (max-width: 576px) {
