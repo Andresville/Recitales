@@ -1,5 +1,3 @@
-
-
 {
   "name": "recitales",
   "version": "1.0.0",
@@ -8,13 +6,12 @@
   "scripts": {
     "start": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^1.0.0-beta.2"
+    "json-server": "^1.0.0-beta.2",
+    "sweetalert2": "^11.14.1"
   }
 }
-
