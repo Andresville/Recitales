@@ -26,6 +26,8 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
     <title>Ticketshow - Compra entradas para conciertos y eventos</title>
     <link rel="icon" href="./Logo.svg" type="image/svg">
 
@@ -133,6 +135,37 @@
    
   </main>
 
+  <script>
+    document.getElementById('miFormulario').addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevenir el envío del formulario
+
+        // Validar el formulario
+        if (this.checkValidity()) {
+            // Mostrar alerta de confirmación
+            Swal.fire({
+                icon: 'success',
+                title: '¡Mensaje enviado!',
+                text: 'En breve serás contactado. No olvides de revisar tu casilla de Spam.',
+                confirmButtonText: 'Aceptar'
+            }).then(() => {
+                // Reinicia el formulario
+                this.reset();
+            });
+        } else {
+            // Si hay campos inválidos, mostrar un mensaje de error
+            Swal.fire({
+                icon: 'error',
+                title: 'Error',
+                text: 'Por favor, completa todos los campos correctamente.',
+                confirmButtonText: 'Aceptar'
+            });
+            // Activar la validación de Bootstrap para mostrar mensajes
+            this.classList.add('was-validated');
+        }
+    });
+</script>
+
+
   <footer class="container-fluid bg-black opacity-50">
     <div class="container text-center d-flex col-12 col-sm-8 text-white py-4">
       <p class="col-5 text-center mb-0">Quienes somos</p>
@@ -163,6 +196,7 @@
     crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script src="./js/formulario.js"></script>
 
