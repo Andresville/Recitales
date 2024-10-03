@@ -1,4 +1,5 @@
 {
+  "start": "node server.js",
   "name": "recitales",
   "version": "1.0.0",
   "description": "",
